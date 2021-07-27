@@ -1,0 +1,44 @@
+@import "../var.scss";
+
+.cont-cards {
+  //width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20em);
+  justify-content: space-between;
+  margin: 70px 80px 0 80px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  background: $bg-box-gray;
+  box-shadow: $bshadow;
+  padding: 10px;
+  border-radius: 0.3em;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  img {
+    border-radius: 0.3em;
+    width: 100%;
+  }
+
+  button {
+    font-weight: bold;
+    //font-family: "Montserrat", sans-serif;
+    border-radius: 0.3em;
+    color: #fff;
+    margin-top: 20px;
+    background: $color-btn;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $color-btn-hv;
+    }
+  }
+}

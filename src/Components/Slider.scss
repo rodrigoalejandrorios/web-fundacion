@@ -1,0 +1,44 @@
+@import "../var.scss";
+
+.cont-slider {
+  width: 100%;
+  margin-top: 50px;
+  //margin: 40px 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  //overflow: hidden;
+  height: 26em;
+}
+
+.cont-img-sl {
+  position: relative;
+  width: 100%;
+  max-width: 70em;
+  border-radius: 0.5em;
+
+  display: flex;
+  align-items: center;
+  .cont-btn-sl {
+    width: 100%;
+    //margin: 0 50px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    img:nth-child(1) {
+      width: 40px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    img:nth-child(2) {
+      margin-right: 10px;
+      width: 40px;
+      cursor: pointer;
+    }
+  }
+  img {
+    border-radius: 0.3em;
+    box-shadow: $bshadow;
+    width: 100%;
+  }
+}

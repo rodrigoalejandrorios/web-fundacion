@@ -1,0 +1,72 @@
+.cont-banner {
+  margin-top: 50px;
+  width: 100%;
+  height: 20em;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-video {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.cont-video:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4) url(../Assets/trama.png);
+}
+
+.cont-video video {
+  width: 100%;
+}
+
+.cont-video .cont-el {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont-video .cont-el h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  color: #fff;
+}
+
+.cont-video .cont-el img {
+  margin: auto;
+  width: 45px;
+}
+/*# sourceMappingURL=Banner.css.map */

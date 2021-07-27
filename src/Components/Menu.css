@@ -1,0 +1,40 @@
+.cont-menu {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  height: 9vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  padding: 0 80px;
+}
+
+.esp-izq img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.esp-der button {
+  padding: 10px 15px;
+  background: #2a2d32;
+  color: #fff;
+  border: none;
+  border-radius: 0.2em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.esp-der button:hover {
+  background: #1d1f22;
+}
+/*# sourceMappingURL=Menu.css.map */

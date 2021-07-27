@@ -1,0 +1,55 @@
+.cont-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20em)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 20em);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 70px 80px 0 80px;
+}
+
+.card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e3e6ec;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card-box:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-box img {
+  border-radius: 0.3em;
+  width: 100%;
+}
+
+.card-box button {
+  font-weight: bold;
+  border-radius: 0.3em;
+  color: #fff;
+  margin-top: 20px;
+  background: #2a2d32;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card-box button:hover {
+  background: #1d1f22;
+}
+/*# sourceMappingURL=Ingresos.css.map */

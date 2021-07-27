@@ -1,0 +1,38 @@
+@import "../var.scss";
+
+.cont-menu {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $bg-w;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  padding: 0 80px;
+}
+
+.esp-izq {
+  img {
+    width: 5vh;
+    height: 5vh;
+  }
+}
+
+.esp-der {
+  button {
+    padding: 10px 15px;
+    background: $color-btn;
+    color: $color-w-text;
+    border: none;
+    border-radius: 0.2em;
+    font-weight: bold;
+    //font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: $color-btn-hv;
+    }
+  }
+}

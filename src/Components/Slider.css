@@ -1,0 +1,56 @@
+.cont-slider {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 26em;
+}
+
+.cont-img-sl {
+  position: relative;
+  width: 100%;
+  max-width: 70em;
+  border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-img-sl .cont-btn-sl {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cont-img-sl .cont-btn-sl img:nth-child(1) {
+  width: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.cont-img-sl .cont-btn-sl img:nth-child(2) {
+  margin-right: 10px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.cont-img-sl img {
+  border-radius: 0.3em;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+/*# sourceMappingURL=Slider.css.map */

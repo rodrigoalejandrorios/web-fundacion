@@ -1,0 +1,187 @@
+.panel-login {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel-login:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4) url(../Assets/trama.png);
+  z-index: 1000;
+}
+
+.panel-login video {
+  width: 1300px;
+  position: fixed;
+}
+
+.cont-dist {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.cont-dist .cont-logo-log {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  z-index: 1500;
+}
+
+.cont-dist .cont-logo-log img {
+  width: 18vh;
+}
+
+.cont-dist .cont-login {
+  z-index: 1500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.cont-dist .cont-login .cont-box-login {
+  border-radius: 0.5em;
+  background: #fff;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  width: 27em;
+  padding: 20px;
+}
+
+.cont-dist .cont-login h1 {
+  margin-bottom: 0.6em;
+}
+
+.cont-dist .cont-login p {
+  margin: 0.5em 0 0.7em 0;
+  font-size: 14px;
+}
+
+.cont-dist .cont-login p a {
+  text-decoration: none;
+}
+
+.cont-dist .cont-login .form-login {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont-dist .cont-login .form-login input {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3em;
+  border-radius: 0.3em;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  padding: 0 10px;
+}
+
+.cont-dist .cont-login .form-login input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.cont-dist .cont-login .form-login input:-ms-input-placeholder {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.cont-dist .cont-login .form-login input::-ms-input-placeholder {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.cont-dist .cont-login .form-login input::placeholder {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+.cont-dist .cont-login .form-login input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1px #1d9bd1, 0 0 0 5px rgba(29, 155, 209, 0.3);
+          box-shadow: 0 0 0 1px #1d9bd1, 0 0 0 5px rgba(29, 155, 209, 0.3);
+  border-color: transparent;
+  -webkit-appearance: none;
+}
+
+.cont-dist .cont-login .form-login input:nth-child(1) {
+  margin-bottom: 0.7em;
+}
+
+.cont-dist .cont-login .form-login input:nth-child(2) {
+  margin-top: 0.7em;
+}
+
+.cont-dist .cont-login .form-login button {
+  background: #2a2d32;
+  color: #fff;
+  padding: 0.9em 2em;
+  margin: 0.7em 0 1em 0;
+  font-size: 18px;
+  border-radius: 0.3em;
+  border: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.cont-dist .cont-login .form-login button:hover {
+  background: #1d1f22;
+}
+/*# sourceMappingURL=Login.css.map */
